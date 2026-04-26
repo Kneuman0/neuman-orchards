@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Bokashi Fermentation"
+  short_description: "Bokashi and EM-style systems"
+  default_prompt: "Use $ecoag-bokashi-fermentation to answer a domain-specific ecological agriculture question from the local knowledgebase."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Garden Plot Excel Planner"
+  short_description: "Build 2-inch garden-bed Excel layouts"
+  default_prompt: "Use $garden-plot-excel-planner to generate an Excel garden-bed layout workbook from bed dimensions, crop placements, and seasonal phases."

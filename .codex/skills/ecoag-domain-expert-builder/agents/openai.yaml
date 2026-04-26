@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Domain Expert Builder"
+  short_description: "Create new ecological domain experts"
+  default_prompt: "Use $ecoag-domain-expert-builder to create a new standalone ecological-agriculture domain expert skill, its knowledge folder, taxonomy, and orchestrator integration."

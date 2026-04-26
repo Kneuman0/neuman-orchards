@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Fungal Ecology"
+  short_description: "Fungi, mycorrhizae, biostimulants"
+  default_prompt: "Use $ecoag-fungal-ecology to answer a domain-specific ecological agriculture question from the local knowledgebase."

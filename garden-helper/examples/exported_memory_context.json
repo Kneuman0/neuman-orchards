@@ -1,0 +1,393 @@
+{
+  "memory_context": {
+    "garden": {
+      "width": 20.0,
+      "height": 18.0
+    },
+    "beds": [
+      {
+        "bed_id": "bed-raised-1",
+        "name": "Bed 1",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 4.0,
+        "h": 8.0,
+        "type": "raised",
+        "notes": "North trellis edge."
+      },
+      {
+        "bed_id": "bed-raised-2",
+        "name": "Bed 2",
+        "x": 8.0,
+        "y": 2.0,
+        "w": 4.0,
+        "h": 8.0,
+        "type": "raised",
+        "notes": "Warmer bed by the fence."
+      }
+    ],
+    "obstacles": [
+      {
+        "obstacle_id": "obstacle-compost",
+        "name": "Compost Pile",
+        "x": 14.0,
+        "y": 3.0,
+        "w": 2.0,
+        "h": 2.0,
+        "type": "obstacle",
+        "notes": "Keep access path open.",
+        "metadata": {}
+      }
+    ],
+    "plant_catalog": [
+      {
+        "plant_id": "plant-basil",
+        "display_name": "Basil",
+        "type": "Herb",
+        "cultivar": "Genovese",
+        "species": "Ocimum basilicum",
+        "source": "garden-helper",
+        "metadata": {}
+      },
+      {
+        "plant_id": "plant-tomato",
+        "display_name": "Tomato",
+        "type": "Tomato",
+        "cultivar": "Cherokee Purple",
+        "species": "Solanum lycopersicum",
+        "source": "garden-helper",
+        "metadata": {}
+      }
+    ],
+    "plantings": [
+      {
+        "planting_id": "planting-bed1-basil-1",
+        "bed_id": "bed-raised-1",
+        "plant_id": "plant-basil",
+        "quantity": 4,
+        "grid_cells": [
+          {
+            "row": 6,
+            "col": 0
+          }
+        ],
+        "date_planted": "2026-05-12",
+        "status": "active",
+        "notes": "Dense south-edge basil patch.\nmetadata={\"per_sqft\": 4}"
+      },
+      {
+        "planting_id": "planting-bed1-tomato-1",
+        "bed_id": "bed-raised-1",
+        "plant_id": "plant-tomato",
+        "quantity": 1,
+        "grid_cells": [
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "date_planted": "2026-05-12",
+        "status": "active",
+        "notes": "Staked on north side."
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "obs-bed1-tomato-vigor",
+        "timestamp": "2026-05-20T09:30:00-04:00",
+        "kind": "vigor",
+        "description": "Tomato looked strong after first tying.",
+        "photo_ref": null,
+        "bed_id": null,
+        "planting_id": "planting-bed1-tomato-1"
+      }
+    ],
+    "recent_activity": [],
+    "latest_sync": {
+      "snapshot_id": "snapshot-example-2026-04-25",
+      "imported_at": "2026-04-25T23:08:22.984582+00:00",
+      "warnings": [],
+      "stats": {
+        "garden_state_upserted": 1,
+        "beds_upserted": 2,
+        "obstacles_upserted": 1,
+        "plants_upserted": 2,
+        "plantings_upserted": 2,
+        "observations_upserted": 1,
+        "plantings_skipped": 0
+      }
+    }
+  },
+  "planner_context": {
+    "garden": {
+      "width": 20.0,
+      "height": 18.0
+    },
+    "beds": [
+      {
+        "bed_id": "bed-raised-1",
+        "name": "Bed 1",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 4.0,
+        "h": 8.0,
+        "type": "raised",
+        "notes": "North trellis edge."
+      },
+      {
+        "bed_id": "bed-raised-2",
+        "name": "Bed 2",
+        "x": 8.0,
+        "y": 2.0,
+        "w": 4.0,
+        "h": 8.0,
+        "type": "raised",
+        "notes": "Warmer bed by the fence."
+      }
+    ],
+    "obstacles": [
+      {
+        "obstacle_id": "obstacle-compost",
+        "name": "Compost Pile",
+        "x": 14.0,
+        "y": 3.0,
+        "w": 2.0,
+        "h": 2.0,
+        "type": "obstacle",
+        "notes": "Keep access path open.",
+        "metadata": {}
+      }
+    ],
+    "plant_catalog": [
+      {
+        "plant_id": "plant-basil",
+        "display_name": "Basil",
+        "type": "Herb",
+        "cultivar": "Genovese",
+        "species": "Ocimum basilicum",
+        "source": "garden-helper",
+        "metadata": {}
+      },
+      {
+        "plant_id": "plant-tomato",
+        "display_name": "Tomato",
+        "type": "Tomato",
+        "cultivar": "Cherokee Purple",
+        "species": "Solanum lycopersicum",
+        "source": "garden-helper",
+        "metadata": {}
+      }
+    ],
+    "plantings": [
+      {
+        "planting_id": "planting-bed1-basil-1",
+        "bed_id": "bed-raised-1",
+        "plant_id": "plant-basil",
+        "quantity": 4,
+        "grid_cells": [
+          {
+            "row": 6,
+            "col": 0
+          }
+        ],
+        "date_planted": "2026-05-12",
+        "status": "active",
+        "notes": "Dense south-edge basil patch.\nmetadata={\"per_sqft\": 4}"
+      },
+      {
+        "planting_id": "planting-bed1-tomato-1",
+        "bed_id": "bed-raised-1",
+        "plant_id": "plant-tomato",
+        "quantity": 1,
+        "grid_cells": [
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "date_planted": "2026-05-12",
+        "status": "active",
+        "notes": "Staked on north side."
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "obs-bed1-tomato-vigor",
+        "timestamp": "2026-05-20T09:30:00-04:00",
+        "kind": "vigor",
+        "description": "Tomato looked strong after first tying.",
+        "photo_ref": null,
+        "bed_id": null,
+        "planting_id": "planting-bed1-tomato-1"
+      }
+    ],
+    "recent_activity": [],
+    "latest_sync": {
+      "snapshot_id": "snapshot-example-2026-04-25",
+      "imported_at": "2026-04-25T23:08:22.984582+00:00",
+      "warnings": [],
+      "stats": {
+        "garden_state_upserted": 1,
+        "beds_upserted": 2,
+        "obstacles_upserted": 1,
+        "plants_upserted": 2,
+        "plantings_upserted": 2,
+        "observations_upserted": 1,
+        "plantings_skipped": 0
+      }
+    }
+  },
+  "snapshot": {
+    "garden": {
+      "width": 20.0,
+      "height": 18.0
+    },
+    "beds": [
+      {
+        "bed_id": "bed-raised-1",
+        "name": "Bed 1",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 4.0,
+        "h": 8.0,
+        "type": "raised",
+        "notes": "North trellis edge.",
+        "metadata": {}
+      },
+      {
+        "bed_id": "bed-raised-2",
+        "name": "Bed 2",
+        "x": 8.0,
+        "y": 2.0,
+        "w": 4.0,
+        "h": 8.0,
+        "type": "raised",
+        "notes": "Warmer bed by the fence.",
+        "metadata": {}
+      }
+    ],
+    "obstacles": [
+      {
+        "obstacle_id": "obstacle-compost",
+        "name": "Compost Pile",
+        "x": 14.0,
+        "y": 3.0,
+        "w": 2.0,
+        "h": 2.0,
+        "type": "obstacle",
+        "notes": "Keep access path open.",
+        "metadata": {}
+      }
+    ],
+    "plant_catalog": [
+      {
+        "plant_id": "plant-basil",
+        "display_name": "Basil",
+        "type": "Herb",
+        "cultivar": "Genovese",
+        "species": "Ocimum basilicum",
+        "source": "garden-helper",
+        "metadata": {}
+      },
+      {
+        "plant_id": "plant-tomato",
+        "display_name": "Tomato",
+        "type": "Tomato",
+        "cultivar": "Cherokee Purple",
+        "species": "Solanum lycopersicum",
+        "source": "garden-helper",
+        "metadata": {}
+      }
+    ],
+    "plantings": [
+      {
+        "planting_id": "planting-bed1-basil-1",
+        "bed_id": "bed-raised-1",
+        "plant_id": "plant-basil",
+        "quantity": 4,
+        "grid_cells": [
+          {
+            "row": 6,
+            "col": 0
+          }
+        ],
+        "date_planted": "2026-05-12",
+        "status": "active",
+        "notes": "Dense south-edge basil patch.\nmetadata={\"per_sqft\": 4}",
+        "metadata": {}
+      },
+      {
+        "planting_id": "planting-bed1-tomato-1",
+        "bed_id": "bed-raised-1",
+        "plant_id": "plant-tomato",
+        "quantity": 1,
+        "grid_cells": [
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "date_planted": "2026-05-12",
+        "status": "active",
+        "notes": "Staked on north side.",
+        "metadata": {}
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "obs-bed1-tomato-vigor",
+        "timestamp": "2026-05-20T09:30:00-04:00",
+        "kind": "vigor",
+        "description": "Tomato looked strong after first tying.",
+        "photo_ref": null,
+        "bed_id": null,
+        "planting_id": "planting-bed1-tomato-1",
+        "metadata": {}
+      }
+    ],
+    "sync_metadata": {
+      "snapshot_id": "snapshot-example-2026-04-25",
+      "exported_at": "2026-04-25T23:08:22.984582+00:00",
+      "source_app_version": "garden-helper-memory-export",
+      "metadata": {
+        "recent_activity": []
+      }
+    }
+  }
+}

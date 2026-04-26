@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Compost Fertility"
+  short_description: "Compost and soil fertility"
+  default_prompt: "Use $ecoag-compost-fertility to answer a domain-specific ecological agriculture question from the local knowledgebase."

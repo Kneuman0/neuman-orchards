@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Soil Biology"
+  short_description: "Soil biology and compost tea"
+  default_prompt: "Use $ecoag-soil-biology to answer a domain-specific ecological agriculture question from the local knowledgebase."

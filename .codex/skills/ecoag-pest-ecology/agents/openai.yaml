@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Pest Ecology"
+  short_description: "Beneficial insects and pest ecology"
+  default_prompt: "Use $ecoag-pest-ecology to answer a domain-specific ecological agriculture question from the local knowledgebase."

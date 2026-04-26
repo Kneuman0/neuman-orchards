@@ -1,0 +1,313 @@
+{
+  "format": "garden-helper-farmbot-bundle/v1",
+  "generated_at": "2026-04-25T23:08:28.372510+00:00",
+  "farmbot": {
+    "web_app_config": {
+      "map_size_x": 6096,
+      "map_size_y": 5486
+    },
+    "point_groups": [
+      {
+        "name": "Bed 1",
+        "sort_type": "xy_ascending",
+        "point_ids": [],
+        "criteria": {
+          "day": {
+            "op": "<",
+            "days_ago": 0
+          },
+          "string_eq": {
+            "gh_kind": [
+              "bed"
+            ],
+            "gh_id": [
+              "bed-raised-1"
+            ]
+          },
+          "number_eq": {},
+          "number_lt": {
+            "x": 1829,
+            "y": 3048
+          },
+          "number_gt": {
+            "x": 610,
+            "y": 610
+          }
+        },
+        "member_count": 0
+      },
+      {
+        "name": "Bed 2",
+        "sort_type": "xy_ascending",
+        "point_ids": [],
+        "criteria": {
+          "day": {
+            "op": "<",
+            "days_ago": 0
+          },
+          "string_eq": {
+            "gh_kind": [
+              "bed"
+            ],
+            "gh_id": [
+              "bed-raised-2"
+            ]
+          },
+          "number_eq": {},
+          "number_lt": {
+            "x": 3658,
+            "y": 3048
+          },
+          "number_gt": {
+            "x": 2438,
+            "y": 610
+          }
+        },
+        "member_count": 0
+      },
+      {
+        "name": "Compost Pile",
+        "sort_type": "xy_ascending",
+        "point_ids": [],
+        "criteria": {
+          "day": {
+            "op": "<",
+            "days_ago": 0
+          },
+          "string_eq": {
+            "gh_kind": [
+              "obstacle"
+            ],
+            "gh_id": [
+              "obstacle-compost"
+            ]
+          },
+          "number_eq": {},
+          "number_lt": {
+            "x": 4877,
+            "y": 1524
+          },
+          "number_gt": {
+            "x": 4267,
+            "y": 914
+          }
+        },
+        "member_count": 0
+      }
+    ],
+    "points": [
+      {
+        "name": "Basil",
+        "pointer_type": "Plant",
+        "openfarm_slug": "basil",
+        "plant_stage": "planted",
+        "planted_at": "2026-05-12",
+        "radius": 53,
+        "depth": 0,
+        "z": 0,
+        "x": 711,
+        "y": 2540,
+        "meta": {
+          "gh_kind": "planting_point",
+          "gh_snapshot_id": "snapshot-example-2026-04-25",
+          "gh_bed_id": "bed-raised-1",
+          "gh_planting_id": "planting-bed1-basil-1",
+          "gh_plant_id": "plant-basil",
+          "gh_display_name": "Basil",
+          "gh_quantity": "4",
+          "gh_grid_cells": "6,0",
+          "gh_status": "active",
+          "gh_notes": "Dense south-edge basil patch.\nmetadata={\"per_sqft\": 4}",
+          "gh_point_index": "1",
+          "gh_point_count": "4"
+        }
+      },
+      {
+        "name": "Basil",
+        "pointer_type": "Plant",
+        "openfarm_slug": "basil",
+        "plant_stage": "planted",
+        "planted_at": "2026-05-12",
+        "radius": 53,
+        "depth": 0,
+        "z": 0,
+        "x": 711,
+        "y": 2641,
+        "meta": {
+          "gh_kind": "planting_point",
+          "gh_snapshot_id": "snapshot-example-2026-04-25",
+          "gh_bed_id": "bed-raised-1",
+          "gh_planting_id": "planting-bed1-basil-1",
+          "gh_plant_id": "plant-basil",
+          "gh_display_name": "Basil",
+          "gh_quantity": "4",
+          "gh_grid_cells": "6,0",
+          "gh_status": "active",
+          "gh_notes": "Dense south-edge basil patch.\nmetadata={\"per_sqft\": 4}",
+          "gh_point_index": "2",
+          "gh_point_count": "4"
+        }
+      },
+      {
+        "name": "Basil",
+        "pointer_type": "Plant",
+        "openfarm_slug": "basil",
+        "plant_stage": "planted",
+        "planted_at": "2026-05-12",
+        "radius": 53,
+        "depth": 0,
+        "z": 0,
+        "x": 813,
+        "y": 2540,
+        "meta": {
+          "gh_kind": "planting_point",
+          "gh_snapshot_id": "snapshot-example-2026-04-25",
+          "gh_bed_id": "bed-raised-1",
+          "gh_planting_id": "planting-bed1-basil-1",
+          "gh_plant_id": "plant-basil",
+          "gh_display_name": "Basil",
+          "gh_quantity": "4",
+          "gh_grid_cells": "6,0",
+          "gh_status": "active",
+          "gh_notes": "Dense south-edge basil patch.\nmetadata={\"per_sqft\": 4}",
+          "gh_point_index": "3",
+          "gh_point_count": "4"
+        }
+      },
+      {
+        "name": "Basil",
+        "pointer_type": "Plant",
+        "openfarm_slug": "basil",
+        "plant_stage": "planted",
+        "planted_at": "2026-05-12",
+        "radius": 53,
+        "depth": 0,
+        "z": 0,
+        "x": 813,
+        "y": 2641,
+        "meta": {
+          "gh_kind": "planting_point",
+          "gh_snapshot_id": "snapshot-example-2026-04-25",
+          "gh_bed_id": "bed-raised-1",
+          "gh_planting_id": "planting-bed1-basil-1",
+          "gh_plant_id": "plant-basil",
+          "gh_display_name": "Basil",
+          "gh_quantity": "4",
+          "gh_grid_cells": "6,0",
+          "gh_status": "active",
+          "gh_notes": "Dense south-edge basil patch.\nmetadata={\"per_sqft\": 4}",
+          "gh_point_index": "4",
+          "gh_point_count": "4"
+        }
+      },
+      {
+        "name": "Tomato",
+        "pointer_type": "Plant",
+        "openfarm_slug": "tomato",
+        "plant_stage": "planted",
+        "planted_at": "2026-05-12",
+        "radius": 213,
+        "depth": 0,
+        "z": 0,
+        "x": 914,
+        "y": 914,
+        "meta": {
+          "gh_kind": "planting_point",
+          "gh_snapshot_id": "snapshot-example-2026-04-25",
+          "gh_bed_id": "bed-raised-1",
+          "gh_planting_id": "planting-bed1-tomato-1",
+          "gh_plant_id": "plant-tomato",
+          "gh_display_name": "Tomato",
+          "gh_quantity": "1",
+          "gh_grid_cells": "0,0;0,1;1,0;1,1",
+          "gh_status": "active",
+          "gh_notes": "Staked on north side.",
+          "gh_point_index": "1",
+          "gh_point_count": "1"
+        }
+      }
+    ]
+  },
+  "garden_helper_sidecar": {
+    "schema_version": 1,
+    "garden": {
+      "width": 20.0,
+      "height": 18.0
+    },
+    "beds": {
+      "bed-raised-1": {
+        "bed_id": "bed-raised-1",
+        "name": "Bed 1",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 4.0,
+        "h": 8.0,
+        "type": "raised",
+        "notes": "North trellis edge.",
+        "metadata": {}
+      },
+      "bed-raised-2": {
+        "bed_id": "bed-raised-2",
+        "name": "Bed 2",
+        "x": 8.0,
+        "y": 2.0,
+        "w": 4.0,
+        "h": 8.0,
+        "type": "raised",
+        "notes": "Warmer bed by the fence.",
+        "metadata": {}
+      }
+    },
+    "obstacles": {
+      "obstacle-compost": {
+        "obstacle_id": "obstacle-compost",
+        "name": "Compost Pile",
+        "x": 14.0,
+        "y": 3.0,
+        "w": 2.0,
+        "h": 2.0,
+        "type": "obstacle",
+        "notes": "Keep access path open.",
+        "metadata": {}
+      }
+    },
+    "plant_catalog": {
+      "plant-basil": {
+        "display_name": "Basil",
+        "type": "Herb",
+        "cultivar": "Genovese",
+        "species": "Ocimum basilicum",
+        "source": "garden-helper",
+        "metadata": {}
+      },
+      "plant-tomato": {
+        "display_name": "Tomato",
+        "type": "Tomato",
+        "cultivar": "Cherokee Purple",
+        "species": "Solanum lycopersicum",
+        "source": "garden-helper",
+        "metadata": {}
+      }
+    },
+    "observations": [
+      {
+        "observation_id": "obs-bed1-tomato-vigor",
+        "timestamp": "2026-05-20T09:30:00-04:00",
+        "kind": "vigor",
+        "description": "Tomato looked strong after first tying.",
+        "photo_ref": null,
+        "bed_id": null,
+        "planting_id": "planting-bed1-tomato-1",
+        "metadata": {}
+      }
+    ],
+    "sync_metadata": {
+      "snapshot_id": "snapshot-example-2026-04-25",
+      "exported_at": "2026-04-25T23:08:22.984582+00:00",
+      "source_app_version": "garden-helper-memory-export",
+      "metadata": {
+        "recent_activity": []
+      }
+    }
+  }
+}

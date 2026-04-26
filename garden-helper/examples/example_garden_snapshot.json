@@ -1,0 +1,110 @@
+{
+  "garden": {
+    "width": 20,
+    "height": 18
+  },
+  "beds": [
+    {
+      "bed_id": "bed-raised-1",
+      "name": "Bed 1",
+      "x": 2,
+      "y": 2,
+      "w": 4,
+      "h": 8,
+      "type": "raised",
+      "notes": "North trellis edge.",
+      "metadata": {
+        "depthIn": 12
+      }
+    },
+    {
+      "bed_id": "bed-raised-2",
+      "name": "Bed 2",
+      "x": 8,
+      "y": 2,
+      "w": 4,
+      "h": 8,
+      "type": "raised",
+      "notes": "Warmer bed by the fence.",
+      "metadata": {
+        "depthIn": 12
+      }
+    }
+  ],
+  "obstacles": [
+    {
+      "obstacle_id": "obstacle-compost",
+      "name": "Compost Pile",
+      "x": 14,
+      "y": 3,
+      "w": 2,
+      "h": 2,
+      "type": "obstacle",
+      "notes": "Keep access path open."
+    }
+  ],
+  "plant_catalog": [
+    {
+      "plant_id": "plant-tomato",
+      "display_name": "Tomato",
+      "type": "Tomato",
+      "cultivar": "Cherokee Purple",
+      "species": "Solanum lycopersicum",
+      "source": "garden-helper"
+    },
+    {
+      "plant_id": "plant-basil",
+      "display_name": "Basil",
+      "type": "Herb",
+      "cultivar": "Genovese",
+      "species": "Ocimum basilicum",
+      "source": "garden-helper"
+    }
+  ],
+  "plantings": [
+    {
+      "planting_id": "planting-bed1-tomato-1",
+      "bed_id": "bed-raised-1",
+      "plant_id": "plant-tomato",
+      "quantity": 1,
+      "grid_cells": [
+        { "row": 0, "col": 0 },
+        { "row": 0, "col": 1 },
+        { "row": 1, "col": 0 },
+        { "row": 1, "col": 1 }
+      ],
+      "date_planted": "2026-05-12",
+      "status": "active",
+      "notes": "Staked on north side."
+    },
+    {
+      "planting_id": "planting-bed1-basil-1",
+      "bed_id": "bed-raised-1",
+      "plant_id": "plant-basil",
+      "quantity": 4,
+      "grid_cells": [
+        { "row": 6, "col": 0 }
+      ],
+      "date_planted": "2026-05-12",
+      "status": "active",
+      "notes": "Dense south-edge basil patch.",
+      "metadata": {
+        "per_sqft": 4
+      }
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "obs-bed1-tomato-vigor",
+      "timestamp": "2026-05-20T09:30:00-04:00",
+      "kind": "vigor",
+      "description": "Tomato looked strong after first tying.",
+      "planting_id": "planting-bed1-tomato-1"
+    }
+  ],
+  "sync_metadata": {
+    "snapshot_id": "snapshot-example-2026-04-25",
+    "exported_at": "2026-04-25T18:00:00-04:00",
+    "source_app_version": "garden-helper-snapshot-v1"
+  }
+}

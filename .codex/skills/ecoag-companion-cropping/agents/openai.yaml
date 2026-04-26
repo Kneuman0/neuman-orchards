@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Companion Cropping"
+  short_description: "Companion planting and intercrops"
+  default_prompt: "Use $ecoag-companion-cropping to answer a domain-specific ecological agriculture question from the local knowledgebase."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Microfarm Systems"
+  short_description: "Microfarm and Bec Hellouin reasoning"
+  default_prompt: "Use $ecoag-microfarm-systems to answer a domain-specific ecological agriculture question from the local knowledgebase."

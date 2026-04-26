@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Mid-Atlantic"
+  short_description: "Mid-Atlantic ecological adaptation"
+  default_prompt: "Use $ecoag-mid-atlantic to answer a domain-specific ecological agriculture question from the local knowledgebase."

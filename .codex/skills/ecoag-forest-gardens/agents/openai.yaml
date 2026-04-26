@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Forest Gardens"
+  short_description: "Forest gardens and agroforestry"
+  default_prompt: "Use $ecoag-forest-gardens to answer a domain-specific ecological agriculture question from the local knowledgebase."

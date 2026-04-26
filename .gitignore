@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor / office temp files
+~$*
+*.tmp
+
+# Generated package metadata
+*.egg-info/
+
+# Local garden-helper runtime and generated state
+garden-helper/runtime/
+garden-helper/data/
+
+# Python / sqlite runtime artifacts
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Environment files
+.env

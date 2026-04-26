@@ -1,0 +1,82 @@
+{
+  "title": "2026 Summer Raised Bed Plan",
+  "assumptions": [
+    "User location assumed to be central Maryland / Mid-Atlantic USDA zone 7 as of April 25, 2026.",
+    "Long side of each bed is plotted horizontally for readability.",
+    "Warm-season planting is assumed to begin after the main frost risk, roughly May 8-20, 2026.",
+    "Only the first 10 feet of the 6x30 bed is used for vegetables this summer; the remaining 20 feet stays in recovery cover.",
+    "Each plotted square represents 2 in x 2 in, and crop blocks are planning footprints rather than exact canopy spread.",
+    "Cucumber planting should use row cover or insect netting until flowering if practical."
+  ],
+  "cell_size_inches": 2,
+  "beds": [
+    {
+      "name": "Bed 1",
+      "width_in": 96,
+      "length_in": 48,
+      "notes": "Main high-confidence summer bed in the better soil.",
+      "phases": [
+        {
+          "name": "May-July",
+          "notes": "Four staked tomatoes on the north side with basil on the south edge.",
+          "placements": [
+            {"crop": "Tomato", "label": "Tomato", "x": 2, "y": 1, "w": 6, "h": 6, "color": "#E06666", "notes": "Tomato 1; stake or trellis from planting day."},
+            {"crop": "Tomato", "label": "Tomato", "x": 14, "y": 1, "w": 6, "h": 6, "color": "#E06666", "notes": "Tomato 2; keep pruned and tied."},
+            {"crop": "Tomato", "label": "Tomato", "x": 26, "y": 1, "w": 6, "h": 6, "color": "#E06666", "notes": "Tomato 3; choose disease-resistant transplant."},
+            {"crop": "Tomato", "label": "Tomato", "x": 38, "y": 1, "w": 6, "h": 6, "color": "#E06666", "notes": "Tomato 4; keep mulch off the stem base."},
+            {"crop": "Basil", "label": "Basil", "x": 4, "y": 20, "w": 4, "h": 3, "color": "#93C47D", "notes": "Basil on south edge for harvest and light companion use."},
+            {"crop": "Basil", "label": "Basil", "x": 16, "y": 20, "w": 4, "h": 3, "color": "#93C47D", "notes": "Basil on south edge."},
+            {"crop": "Basil", "label": "Basil", "x": 28, "y": 20, "w": 4, "h": 3, "color": "#93C47D", "notes": "Basil on south edge."},
+            {"crop": "Basil", "label": "Basil", "x": 40, "y": 20, "w": 4, "h": 3, "color": "#93C47D", "notes": "Basil on south edge."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bed 2",
+      "width_in": 96,
+      "length_in": 48,
+      "notes": "Mixed high-attention bed: cucumbers stay on a simple north trellis and peppers hold the south half.",
+      "phases": [
+        {
+          "name": "May-July",
+          "notes": "Four cucumbers on the north trellis, six peppers below, with restrained support planting.",
+          "placements": [
+            {"crop": "Cucumber", "label": "Cucumber", "x": 5, "y": 1, "w": 5, "h": 4, "color": "#6FA8DC", "notes": "Cucumber 1; direct-seed or use a very young transplant."},
+            {"crop": "Cucumber", "label": "Cucumber", "x": 16, "y": 1, "w": 5, "h": 4, "color": "#6FA8DC", "notes": "Cucumber 2; keep on north-edge trellis."},
+            {"crop": "Cucumber", "label": "Cucumber", "x": 27, "y": 1, "w": 5, "h": 4, "color": "#6FA8DC", "notes": "Cucumber 3; scout early for cucumber beetles."},
+            {"crop": "Cucumber", "label": "Cucumber", "x": 38, "y": 1, "w": 5, "h": 4, "color": "#6FA8DC", "notes": "Cucumber 4; remove cover at flowering."},
+            {"crop": "Pepper", "label": "Pepper", "x": 4, "y": 10, "w": 5, "h": 4, "color": "#F6B26B", "notes": "Pepper 1; transplant after soil warms well."},
+            {"crop": "Pepper", "label": "Pepper", "x": 20, "y": 10, "w": 5, "h": 4, "color": "#F6B26B", "notes": "Pepper 2."},
+            {"crop": "Pepper", "label": "Pepper", "x": 36, "y": 10, "w": 5, "h": 4, "color": "#F6B26B", "notes": "Pepper 3."},
+            {"crop": "Pepper", "label": "Pepper", "x": 12, "y": 16, "w": 5, "h": 4, "color": "#F6B26B", "notes": "Pepper 4."},
+            {"crop": "Pepper", "label": "Pepper", "x": 28, "y": 16, "w": 5, "h": 4, "color": "#F6B26B", "notes": "Pepper 5."},
+            {"crop": "Pepper", "label": "Pepper", "x": 44, "y": 16, "w": 5, "h": 4, "color": "#F6B26B", "notes": "Pepper 6."},
+            {"crop": "Scallion", "label": "Scallion", "x": 1, "y": 23, "w": 48, "h": 2, "color": "#B6D7A8", "notes": "Low allium border along the south edge of the pepper zone."},
+            {"crop": "Dill/Cil", "label": "Dill/Cil", "x": 1, "y": 6, "w": 4, "h": 3, "color": "#A2C4C9", "notes": "Let some dill or cilantro flower for beneficials."},
+            {"crop": "Dill/Cil", "label": "Dill/Cil", "x": 45, "y": 6, "w": 4, "h": 3, "color": "#A2C4C9", "notes": "Let some dill or cilantro flower for beneficials."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bed 3",
+      "width_in": 360,
+      "length_in": 72,
+      "notes": "Only the first 10 feet is pushed for summer vegetables; the remaining 20 feet stays in recovery cover.",
+      "phases": [
+        {
+          "name": "May-Summer",
+          "notes": "First 10 feet in capped bean strips, remaining 20 feet in buckwheat recovery cover with small insectary pockets.",
+          "placements": [
+            {"crop": "Bush Bean", "label": "Bush Bean", "x": 1, "y": 10, "w": 60, "h": 6, "color": "#FFE599", "notes": "Capped productive strip A; sow around May 10-20."},
+            {"crop": "Bush Bean", "label": "Bush Bean", "x": 1, "y": 22, "w": 60, "h": 6, "color": "#FFE599", "notes": "Capped productive strip B; use for staggered sowing or the second bean strip."},
+            {"crop": "Dill/Cil", "label": "Dill/Cil", "x": 61, "y": 2, "w": 8, "h": 8, "color": "#A2C4C9", "notes": "Airy insectary pocket near the productive section."},
+            {"crop": "Calendula", "label": "Calendula", "x": 61, "y": 27, "w": 8, "h": 8, "color": "#FFD966", "notes": "Low insectary support patch; keep open, not dense."},
+            {"crop": "Buckwheat", "label": "Buckwheat", "x": 69, "y": 1, "w": 112, "h": 36, "color": "#D9EAD3", "notes": "Summer recovery cover on the remaining 20 feet; mow before seed set."}
+          ]
+        }
+      ]
+    }
+  ]
+}

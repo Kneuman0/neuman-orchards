@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ecological Agriculture Orchestrator"
+  short_description: "Cross-topic ecological garden guidance"
+  default_prompt: "Use $ecological-agriculture-orchestrator to connect the local ecological agriculture knowledgebase into a garden plan, a cross-topic answer, or a seasonal check-in."

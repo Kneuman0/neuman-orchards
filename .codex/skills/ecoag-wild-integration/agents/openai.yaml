@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Wild Integration"
+  short_description: "Wild edible plant integration"
+  default_prompt: "Use $ecoag-wild-integration to answer a domain-specific ecological agriculture question from the local knowledgebase."

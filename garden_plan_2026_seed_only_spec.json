@@ -1,0 +1,70 @@
+{
+  "title": "2026 Summer Raised Bed Plan - Seed Only",
+  "assumptions": [
+    "User location assumed to be central Maryland / Mid-Atlantic USDA zone 7 as of April 25, 2026.",
+    "Plan assumes seeds only, no transplants.",
+    "Warm-season direct seeding is assumed to begin after the main frost risk and once soil is warm enough, roughly May 8-20, 2026.",
+    "Tomatoes, peppers, eggplant, and sweet potatoes are dropped from the main 2026 summer plan because they are poor bets from seed only at this timing.",
+    "Only the first 10 feet of the 6x30 bed is used for vegetables this summer; the remaining 20 feet stays in buckwheat recovery cover.",
+    "Each plotted square represents 2 in x 2 in, and crop blocks show productive crop zones rather than isolated plant-center spacing."
+  ],
+  "cell_size_inches": 2,
+  "beds": [
+    {
+      "name": "Bed 1",
+      "width_in": 96,
+      "length_in": 48,
+      "notes": "Best direct-seeded nucleus bed: cucumbers on a north trellis, with the rest of the bed used intentionally rather than left visually empty.",
+      "phases": [
+        {
+          "name": "May-July",
+          "notes": "North cucumber zone, middle bush-bean companion zone, and south herb zone. Notes carry the actual sowing density.",
+          "placements": [
+            {"crop": "Cucumber", "label": "Cucumber", "x": 1, "y": 1, "w": 48, "h": 6, "color": "#6FA8DC", "notes": "North trellis zone. Actual sowing target: 8 cucumber plants at about 12-inch spacing. Direct-sow around May 10-20 and cover until flowering if practical."},
+            {"crop": "Bush Bean", "label": "Bush Bean", "x": 1, "y": 7, "w": 48, "h": 6, "color": "#FFE599", "notes": "Secondary direct-sown bean zone in front of the cucumbers. Use one or two bush-bean rows or a narrow band, not a solid carpet."},
+            {"crop": "Dill/Cil", "label": "Dill/Cil", "x": 1, "y": 13, "w": 10, "h": 12, "color": "#A2C4C9", "notes": "Edge herb/insectary zone. Let some dill or cilantro flower."},
+            {"crop": "Basil", "label": "Basil", "x": 11, "y": 13, "w": 28, "h": 12, "color": "#93C47D", "notes": "Direct-sown basil strip after frost. Thin and harvest repeatedly rather than letting it become woody."},
+            {"crop": "Dill/Cil", "label": "Dill/Cil", "x": 39, "y": 13, "w": 10, "h": 12, "color": "#A2C4C9", "notes": "Second herb/insectary zone at the opposite end."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bed 2",
+      "width_in": 96,
+      "length_in": 48,
+      "notes": "Pole-bean nucleus bed with most of the bed claimed by the trellis crop rather than left visually empty.",
+      "phases": [
+        {
+          "name": "May-July",
+          "notes": "Pole beans occupy the main bed volume; herbs stay in the edge band.",
+          "placements": [
+            {"crop": "Dill/Cil", "label": "Dill/Cil", "x": 1, "y": 1, "w": 12, "h": 4, "color": "#A2C4C9", "notes": "Edge herb pocket."},
+            {"crop": "Basil", "label": "Basil", "x": 13, "y": 1, "w": 24, "h": 4, "color": "#93C47D", "notes": "Optional direct-sown basil strip."},
+            {"crop": "Dill/Cil", "label": "Dill/Cil", "x": 37, "y": 1, "w": 12, "h": 4, "color": "#A2C4C9", "notes": "Second edge herb pocket."},
+            {"crop": "Pole Bean", "label": "Pole Bean", "x": 1, "y": 5, "w": 48, "h": 9, "color": "#FFD966", "notes": "North side of central or A-frame trellis. Actual target: about 12 pole-bean plants at roughly 8-inch spacing."},
+            {"crop": "Pole Bean", "label": "Pole Bean", "x": 1, "y": 14, "w": 48, "h": 11, "color": "#FFD966", "notes": "South side of central or A-frame trellis. Actual target: about 12 pole-bean plants at roughly 8-inch spacing."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bed 3",
+      "width_in": 360,
+      "length_in": 72,
+      "notes": "Only the first 10 feet is used for bush beans in a clearly claimed productive zone; the rest stays in recovery cover.",
+      "phases": [
+        {
+          "name": "May-Summer",
+          "notes": "Front section is a capped bush-bean zone with small herb support at the front edge. The remaining 20 feet stays in buckwheat recovery cover.",
+          "placements": [
+            {"crop": "Dill/Cil", "label": "Dill/Cil", "x": 1, "y": 1, "w": 20, "h": 6, "color": "#A2C4C9", "notes": "Airy support patch at the productive front edge."},
+            {"crop": "Basil", "label": "Basil", "x": 21, "y": 1, "w": 20, "h": 6, "color": "#93C47D", "notes": "Optional direct-sown basil if desired; otherwise treat as an open herb strip."},
+            {"crop": "Bush Bean", "label": "Bush Bean", "x": 1, "y": 7, "w": 60, "h": 30, "color": "#FFE599", "notes": "Capped productive bush-bean zone in the first 10 feet. Actual target: 2 rows totaling about 60 plants at roughly 4-inch spacing, with a second sowing 2-3 weeks later if desired."},
+            {"crop": "Buckwheat", "label": "Buckwheat", "x": 69, "y": 1, "w": 112, "h": 36, "color": "#D9EAD3", "notes": "Recovery cover on the remaining 20 feet; mow before seed set to avoid volunteer problems."}
+          ]
+        }
+      ]
+    }
+  ]
+}

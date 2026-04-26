@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Biochar"
+  short_description: "Biochar strategy and tradeoffs"
+  default_prompt: "Use $ecoag-biochar to answer a domain-specific ecological agriculture question from the local knowledgebase."

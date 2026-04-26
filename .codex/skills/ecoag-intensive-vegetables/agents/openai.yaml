@@ -1,0 +1,4 @@
+interface:
+  display_name: "EcoAg Intensive Vegetables"
+  short_description: "Intensive vegetable bed planning"
+  default_prompt: "Use $ecoag-intensive-vegetables to answer a domain-specific ecological agriculture question from the local knowledgebase."
